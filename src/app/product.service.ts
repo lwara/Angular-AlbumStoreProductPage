@@ -23,7 +23,7 @@ private _productsUrl='../assets/products.json';
     return this._http.get(this._albumUrl).map(response=><Album>response.json());
   }
 
-  getProducts(): Observable<Product[]>
+  getProducts()
   {
     return this._http.get(this._productsUrl).map(response => <Product[]> response.json());
   }
