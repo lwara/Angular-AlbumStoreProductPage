@@ -33,7 +33,7 @@ const appRoutes: Routes =[
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRot(appRoutes)
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [
     ProductService
